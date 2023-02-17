@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+#container{
+    margin:auto;
+    background-color: rgba(0,0,0,0.5);
+    width: 63%;
+    margin-top: 2%;
+    border-radius: 15px;
+    padding:5%;
+}
+
+
+/* Header */
+header{
+    text-align: center;
+}
+
+header img{
+    width: 25%;
+}
+
+header span{
+    color:#20d00c;
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+
+
+/*nav*/
+nav{
+    background-color:#20d00c;
+    text-align: center;
+}
+
+nav button{
+    margin:1% 0;
+    font-size: 0.7em;
+}
+
+
+/*main*/
+.arrow:before{
+    content: "\21A6  ";
+}
+
+span{
+    display: block;
+}
+
+.section{
+    margin:2% 0;
+}
+
+.section span{
+    font-size: smaller;
+}
+
+.section label{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.section div{
+    height:25px;
+    border-radius: 4px;
+    
+}
+
+.stato-carica1{
+    background-color: #f5b453;
+    width:35%;
+}
+
+.stato-carica2{
+    background-color: #1ec31e;
+    width:60%;
+}
+
+.stato-carica3{
+    background-color: #be4141;
+    width:15%;
+}
+
+
+
+
+
+
+
